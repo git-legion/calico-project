@@ -1,4 +1,4 @@
-curl https://github.com/git-legion/calico-project/blob/55120f1fc81d7744015349fea703029983e88bed/calico.yaml -O  
+curl https://raw.githubusercontent.com/projectcalico/calico/v3.25.0/manifests/calico.yaml -O
 
 kubectl apply -f calico.yaml
   
